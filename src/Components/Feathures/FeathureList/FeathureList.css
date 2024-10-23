@@ -1,0 +1,12 @@
+.feathureListContainer  h2{
+         padding: 16px 0;
+}
+.feathureList{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         gap: 16px;
+}
+.feathureListContainer.dark  h2{
+         color: rgb(126, 139,158);
+}

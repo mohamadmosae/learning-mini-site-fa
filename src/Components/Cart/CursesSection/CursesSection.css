@@ -1,0 +1,8 @@
+.cursesSectionCuntainer{
+         margin-top: 32px;
+}
+
+
+.cursesSectionCuntainer.dark .newcorses{
+ color: rgb(126, 139,158);
+}

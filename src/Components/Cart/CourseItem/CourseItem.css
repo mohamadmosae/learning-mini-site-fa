@@ -1,0 +1,84 @@
+.CurseCart{
+         
+         background: #fff;
+         border-radius: 10px;
+         overflow: hidden;
+         flex-grow: 1;
+         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.CurseCart img{
+         max-width: 100%;
+}
+.cartBody{
+         padding: 16px;
+         border-bottom: 1px solid rgb(222 228 239);
+}
+.courstitle{
+         padding: 4px 0 8px 0;
+}
+.coursDesc {
+         font-size: 14px;
+         padding: 8px 0;
+      }
+      .coursInfo {
+         color: rgb(74, 74, 74);
+         display: flex;
+         justify-content: space-between;
+      }
+      .CourseTeacher svg {
+         vertical-align: middle;
+         font-size: 18px;
+      }
+      .courseStudent svg {
+         vertical-align: sub;
+         font-size: 18px;
+      }
+      .CourseTeacher,
+      .courseStudent {
+         display: flex;
+         align-items: center;
+         padding: 16px 0;
+         font-size: 14px;
+         gap: 8px;
+      }
+      .cartFooter {
+         display: flex;
+         padding: 16px;
+         justify-content: space-between;
+         align-items: center;
+      }
+      .cartFooter button {
+         all: unset;
+         background: var(--color-orange);
+         padding: 5px 10px;
+         border-radius: 10px;
+         cursor: pointer;
+      }
+      .cartFooter .price {
+         font-weight: bold;
+      }
+      
+      /* dark mode */
+      .CurseCart.dark {
+         background-color: var(--bg-dark-200);
+         color: var(--text-dark-200);
+      }
+      .CurseCart.dark .courstitle {
+         color: var(--text-dark-100);
+      }
+      .CurseCart.dark .coursDesc {
+         color: var(--text-dark-200);
+      }
+      .CurseCart.dark .Price {
+         color: var(--color-orange);
+      }
+      .CurseCart.dark .coursInfo {
+         color: var(--text-dark-300);
+      }
+      .CurseCart.dark .cartFooter {
+         color: var(--bg-dark-300);
+      }
+      .CurseCart.dark .cartBody {
+         border-bottom: 1px solid var(--bg-dark-100);
+      }
+      

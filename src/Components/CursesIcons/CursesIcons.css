@@ -1,0 +1,44 @@
+.coursesIconCountaner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0;
+}
+.coursesIconCountaner h2 {
+  margin-bottom: 32px;
+  text-align: center;
+}
+.coursesIconCountaner svg {
+  font-size: 70px;
+}
+.coursesIconList {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.coursesIcon {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px /30px;
+  background: #fff;
+  box-shadow: 6px 24px 28px 8px rgba(0, 0, 0, 0.1);
+  transition: .4s;
+}
+.coursesIcon:hover {
+  background-color: var(--bg-dark-100);
+  color: var(--color-orange);
+}
+.coursesIconCountaner.dark .coursesIcon:hover {
+  color: black;
+  background: #fff;
+}
+.coursesIconCountaner.dark .coursesIcon {
+  background-color: var(--bg-dark-200);
+  color: var(--color-orange);
+}
+.coursesIconCountaner.dark h2 {
+  color: var(--text-dark-300);
+}
